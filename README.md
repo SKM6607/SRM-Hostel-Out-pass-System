@@ -71,7 +71,7 @@ All interactions (register, login, apply, approve, reject) flow into the **SQL d
 
 ---
 ## Architecture Diagram 
-  <img src="Architecture Diagram.png"></img>
+  <img src="Architectural Diagram.png"></img>
 
 ## 🎯 Purpose
 
