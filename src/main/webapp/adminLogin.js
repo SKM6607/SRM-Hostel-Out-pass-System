@@ -1,5 +1,4 @@
 import {LOGGED_IN_STUDENT, Message, STATUS} from "./script.js"
-import {InputVerifier} from "./InputVerifier.js";
 
 const showMessage = Message.showMessage;
 const LOGGED_IN_ADMIN = "loggedInAdmin";
@@ -58,8 +57,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const loginForm = document.getElementById('loginForm');
     loginForm.addEventListener('submit', (event) => {
         event.preventDefault();
-        const [email, password] = InputVerifier.verifyLogin('email', 'password', showMessage, STATUS.ERROR);
-        loginAdmin(email, password);
     });
 
 });
