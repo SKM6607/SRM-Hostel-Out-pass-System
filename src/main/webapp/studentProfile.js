@@ -14,6 +14,8 @@ studentDetailsDiv.innerHTML = `
     <p><strong>Name:</strong> ${student.name}</p>
     <p><strong>Register Number:</strong> ${student.registeredNumber}</p>
     <p><strong>Email:</strong> ${student.email}</p>
+    <p><strong>Student Mobile Number:</strong> ${student.studentMobileNumber}</p>
+    <p><strong>Parent Mobile Number:</strong> ${student.parentMobileNumber}</p>
 `;
 
 // Fetch outpass history from backend

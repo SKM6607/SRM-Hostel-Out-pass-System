@@ -21,16 +21,22 @@
         <h2>Student Registration</h2>
         <form id="registerForm" >
             <label>Full Name:</label>
-            <input type="text" id="name" placeholder="Name" required />
+            <input type="text" id="name" placeholder="Enter full name" required />
 
             <label>Registration Number:</label>
             <input type="text" id="registeredNumber" required placeholder="RA24XXXXXXXXXX"/>
 
             <label>SRM Email ID:</label>
-            <input type="email" id="email" placeholder="example@srmist.edu.in" required />
+            <input type="email" id="email" placeholder="ab1234@srmist.edu.in" required />
+
+            <label>Student Mobile Number:</label>
+            <input type="number" id="studentMobileNumber" placeholder="+91 XXXXXXXXXX" required />
+
+            <label>Parent Mobile Number:</label>
+            <input type="number" id="parentMobileNumber" placeholder="+91 XXXXXXXXXX" required />
 
             <label>Create Password:</label>
-            <input type="password" id="password" required />
+            <input type="password" id="password" placeholder="Min 8 chars, 1 number, 1 symbol" required />
 
             <button type="submit" class="btn">Register</button>
         </form>
@@ -38,7 +44,7 @@
         <p class="switch-link">Already have an account? <a href="student_login.html">Login here</a></p>
     </div>
 
-    <footer>
+    <footer style="margin-top: 30px">
         <p>© SRM Institute of Science and Technology</p>
     </footer>
 </body>
